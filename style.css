@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:ital@0;1&family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+
+.btn-circle{
+    color: #7b6011;
+    border-color: #7b6011;
+    border-width: 2px;
+    font-family: "Gill Sans", sans-serif;
+    width: 125px; 
+    height: 45px; 
+    padding: 8px 0px 8px; 
+    border-radius: 40px; 
+    font-size: 18px; 
+    text-align: center; 
+}
+
+.first-section{
+    margin-top:80px;
+    padding-bottom: 50px;
+}
+
+.big {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+
+.small{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.dp{
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.intro{
+    font-size: 26px;
+    padding: 150px 0px 150px;
+    background-color: #7b6011;
+    color: whitesmoke;
+    font-family: 'Arvo', serif;
+}
+
+.intro span{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: block;
+    line-height: 20px;
+}
+
+/*-------------------------TOOLS-------------------------*/
+.tools{
+    padding: 30px 190px 30px 190px;
+}
+
+.tools span{
+    font-size: 30px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.tools p{
+    font-size: 16px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.front{
+    border: 2px solid #c5cad1;
+    padding: 0px 70px 30px 70px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 4px #bebebe;
+}
+
+.tools-icon i{
+    font-size: 100px;
+}
+
+
+/*--------------------------SKILL SECTION*--------------------------*/
+.skill{
+    background-color: #7b6011;
+    padding: 100px 0px 100px;
+    color: whitesmoke;
+}
+
+.skill h1{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+
+.skill-icon{
+    padding: 0px 110px 0px 110px;
+}
+
+.skill-icon p{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+}
+
+.skill-icon i{
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 2px #888;
+    padding: 35px;
+    font-size: 40px;
+    color:  #7b6011;
+}
+
+
+/* -----------------------WORK SECTION-----------------------*/
+.works{
+    padding: 30px 30px 70px;
+}
+
+.works p{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 30px;
+}
+
+.list {
+    margin: 30px 180px 30px 180px;
+}
+
+.one{
+    background-color: #d49c00;
+    color:whitesmoke;
+    padding: 30px 30px 30px 30px;
+}
+
+.two{
+    background-color: #4de382;
+    color:whitesmoke;
+    padding: 30px 30px 30px 30px;
+}
+
+.one:hover{
+    background-color: #b58602;
+}
+
+.two:hover{
+    background-color: #4aba72;
+}
+
+/*--------------------CONTACT SECTION-------------------*/
+.contact{
+    padding: 110px;
+    background-color: #7b6011;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+.contact span{
+    font-size: 20px;
+}
+
+/* ---------------------Media Social----------------------*/
+.social-media{
+    padding: 30px 550px 110px 550px;
+}
+
+.social-media i{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #7b6011;
+    box-shadow: 0px 0px 2px #888;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.social-media i:hover{
+    background-color: #58450c;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*------------------------------------CHAT HTML-------------------------------------------------------*/
+.name{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: #333835;
+}
+.title{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.link{
+    padding: 20px 170px 20px 170px;
+}
+
+.link li{
+    font-size: 24px;
+}
+
+.about{
+    padding: 20px 170px 20px 170px;
+}
+
+.about p{
+    font-size: 24px;
+}
+
+.chat-tools{
+    padding: 20px 170px 20px 170px;
+}
+
+.chat-tools li{
+    font-size: 24px;
+}
