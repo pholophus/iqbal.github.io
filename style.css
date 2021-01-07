@@ -7,17 +7,8 @@ html {
 	scroll-behavior: smooth;
 }
 
-.btn-circle{
+.btn-nav{
     color: #7b6011;
-    border-color: #7b6011;
-    border-width: 2px;
-    font-family: "Gill Sans", sans-serif;
-    width: 125px; 
-    height: 45px; 
-    padding: 8px 0px 8px; 
-    border-radius: 40px; 
-    font-size: 18px; 
-    text-align: center; 
 }
 
 .first-section{
@@ -36,13 +27,14 @@ html {
 }
 
 .dp{
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 50%;
 }
 
 .intro{
     font-size: 26px;
-    padding: 150px 0px 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: #7b6011;
     color: whitesmoke;
     font-family: 'Arvo', serif;
@@ -52,13 +44,14 @@ html {
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    display: block;
     line-height: 20px;
 }
 
 /*-------------------------TOOLS-------------------------*/
 .tools{
-    padding: 30px 190px 30px 190px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .tools span{
@@ -96,16 +89,13 @@ html {
     font-size: 40px;
 }
 
-.skill-icon{
-    padding: 0px 110px 0px 110px;
-}
 
-.skill-icon p{
+.skill p{
     font-family: 'MuseoModerno', cursive;
     font-size: 20px;
 }
 
-.skill-icon i{
+.skill i{
     display: inline-block;
     height: 110px;
     width: 110px;
@@ -119,29 +109,20 @@ html {
 
 
 /* -----------------------WORK SECTION-----------------------*/
-.works{
-    padding: 30px 30px 70px;
+.work{
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
-.works p{
-    font-family: 'Noto Sans HK', sans-serif;
-    font-size: 30px;
-}
-
-.list {
-    margin: 30px 180px 30px 180px;
-}
 
 .one{
     background-color: #d49c00;
     color:whitesmoke;
-    padding: 30px 30px 30px 30px;
 }
 
 .two{
     background-color: #4de382;
     color:whitesmoke;
-    padding: 30px 30px 30px 30px;
 }
 
 .one:hover{
@@ -154,7 +135,8 @@ html {
 
 /*--------------------CONTACT SECTION-------------------*/
 .contact{
-    padding: 110px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     background-color: #7b6011;
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 26px;
@@ -167,7 +149,8 @@ html {
 
 /* ---------------------Media Social----------------------*/
 .social-media{
-    padding: 30px 550px 110px 550px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .social-media i{
@@ -223,4 +206,22 @@ html {
 
 .chat-tools li{
     font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .start{
+        padding-left: 30px;
+        padding-right:30px;
+    }
+
+    .intro{
+        padding: 150px 30px 150px 30px;
+    }
+
+    .tools{
+        padding-top: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }

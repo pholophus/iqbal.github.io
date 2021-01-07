@@ -13,17 +13,41 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="body-project">
-        <nav class="navbar">
-            <img class="ml-5 mt-4" src="logo.png" height=90 >
-            <a href="#contact-me" class="btn btn-circle mr-5 mt-4" >Contact Me</a>
+    <div>
+        <nav class="navbar navbar-expand-lg ">
+            <a href="#">
+                <img class="navbar-brand" src="logo.png" height=100 >
+            </a>
+            
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mr-auto">
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active h4 btn-nav" href="#intro">Intro</a>
+                        <a class= "nav-item nav-link h4 btn-nav ml-1" href="#skills">Skills</a>
+                        <a class= "nav-item nav-link h4 btn-nav ml-1" href="#about">About</a>
+                        <a class= "nav-item nav-link h4 btn-nav ml-1" href="#works">Works</a>
+                        <a class=" nav-item nav-link active h4 btn-nav ml-1" href= "#contact-me" >Contact Me</a>
+                    </div>
+                </form> 
+            </div>
         </nav>
-        <div class="first-section text-center">
-            <p class="big">Front-End, Back-End Web Developer</p>
-            <p class="small">I design and develop systems, and I love what I do</p>
-            <img class="dp" src="dp.jpeg" height="210">
+
+        <div class="row my-3 start">
+            <div class="col-md-4 col-12"></div>
+            <div class="col-md-4 col-12 text-center">
+                <p class="big">Front-End, Back-End Web Developer</p>
+                <p class="small">I design and develop systems, and I love what I do</p>
+                <img class="dp" src="dp.jpeg" height="210">
+            </div>
         </div>
-        <div class="text-center intro">
+
+        <div class="text-center intro" id="intro">
             <p>Hi, I'm Muhd Iqbal. Nice to meet you.</p>
             <span>Since beginning my journey in developing system nearly 3 years ago,<br>
                  I've involved in several projects, collaborated with talented people
@@ -33,60 +57,60 @@
             </span>
         </div>
 
-        <div class="text-center tools">
+        <div class="text-center tools" id="skills">
             <span>My Skills</span>
             <div class="front">
                 <div class="row tools-icon mt-5">
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-html5-plain "></i>
                         <p>HTML5</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-css3-plain "></i>
                         <p>CSS</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-javascript-plain "></i>
                         <p>Javascript</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-bootstrap-plain "></i>
                         <p>Bootstrap</p>
                     </div>
                 </div>
                 <div class="row tools-icon mt-5">
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-php-plain "></i>
                         <p>Php</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-mysql-plain "></i>
                         <p>MySQL</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-nodejs-plain "></i>
                         <p>Node JS</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-mongodb-plain "></i>
                         <p>Mongo DB</p>
                     </div>
                 </div>
                 <div class="row tools-icon mt-5">
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-react-original "></i>
                         <p>React JS</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-vuejs-plain "></i>
                         <p>Vue JS</p>
                     </div>
                    
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-laravel-plain "></i>
                         <p>Laravel</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-4 col-6">
                         <i class="devicon-express-original-wordmark "></i>
                         <p>Express</p>
                     </div>
@@ -94,10 +118,10 @@
             </div>
         </div>
 
-        <div class="text-center skill">
+        <div class="text-center skill" id="about">
             <h1>What can I do</h1>
-            <div class="row skill-icon mt-5">
-                <div class="col">
+            <div class="row">
+                <div class="col-md-4 col-8W mb-3">
                     <i class="fa fa-code" aria-hidden="true"></i>
                     <p>Front-End</p>
                     <span>
@@ -108,7 +132,7 @@
                         and smooth design is my priority!
                     </span>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-12 mb-3">
                     <i class="fa fa-cogs" aria-hidden="true"></i>
                     <p>Back-End</p>
                     <span>
@@ -118,7 +142,7 @@
                         and suitable for small or large applications.
                     </span>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-12 mb-3">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                     <p>Web Development</p>
                     <span>
@@ -132,17 +156,17 @@
             </div>
         </div>
 
-        <div class="text-center works">
-            <p>My Works</p>
-            <div class="row list mt-5">
-                <div class="col one" onclick="location.href='chat.html';">
+        <div class="text-center px-5 work" id="works">
+            <h3>My Works</h3>
+            <div class="row px-5">
+                <div class="col-12 col-lg-4 col-md-4 px-5 py-5 one" onclick="location.href='chat.html';">
                     <h3>Chat App</h3>
                     <h6>A simple chat app using Node JS and socket.io I learned through youtube</h6>
                 </div>
-                <div class="col two">
+                <div class="col-12 col-lg-4 col-md-4 px-5 py-5 two" >
                     <h3>Laravel</h3>
                 </div>
-                <div class="col one">
+                <div class="col-12 col-lg-4 col-md-4 px-5 py-5 one" onclick="window.open('https://github.com/pholophus/React-Music-App','_blank');">
                     <h3>Music App</h3>
                     <h6>A simple music web where the API are fetch with using React JS</h6>
                 </div>
@@ -158,13 +182,13 @@
 
         <div class="text-center social-media">
             <div class="row mt-5">
-                <div class="col">
+                <div class="col-md col-4">
                     <i class="fa fa-facebook-square" aria-hidden="true" onclick="window.open('https://www.facebook.com/profile.php?id=100007147487633','_blank');"></i>
                 </div>
-                <div class="col">
+                <div class="col-md col-4">
                     <i class="fa fa-github-alt" aria-hidden="true" onclick="window.open('https://github.com/pholophus','_blank');"></i>
                 </div>
-                <div class="col">
+                <div class="col-md col-4">
                     <i class="fa fa-linkedin" aria-hidden="true" onclick="window.open('https://www.linkedin.com/in/iqbal-ibrahim-0662021a0/','_blank');"></i>
                 </div>
             </div>
